@@ -1,0 +1,14 @@
+[{
+    "id" : "1",
+    "title": "Apple 16 Pro Max",
+    "image" : "/image/iphone16.jpg",
+    "description":"IPhone 16 promax with high featuress and top most brand in the world ",
+    "price":"1,69000"
+},
+{ "id" : "2",
+    "title": "Apple 15 Pro Max",
+    "image" : "/image/iphone16.jpg",
+    "description":"IPhone 15 promax with high featuress and top most brand in the world ",
+    "price":"1,12000"
+}
+]

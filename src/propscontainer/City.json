@@ -1,0 +1,53 @@
+
+ [ 
+    {  
+    "id":"1",
+    "name":"Visakhapatnam"
+},
+{
+     "id":"2",
+    "name":"Vijayavada"
+},
+{
+     "id":"3",
+    "name":"Rajamandry"
+},
+{
+     "id":"4",
+    "name":"Anakapalli"
+},
+{
+     "id":"5",
+    "name":"Tuni"
+},
+{
+ "id":"6",
+    "name":"East godavari"
+},
+{
+     "id":"7",
+    "name":"West godavari"
+},
+{
+     "id":"8",
+    "name":"Guntoor"
+},
+{
+   "id":"9",
+    "name":"Vijayanagaram"
+},
+{
+     "id":"10",
+    "name":"Nellore"
+},
+{
+     "id":"11",
+    "name":"Annavaram"
+},
+{
+     "id":"10",
+    "name":"Nellore"
+}
+
+
+ ]

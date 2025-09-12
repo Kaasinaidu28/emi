@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+ 
+ }
+ .weather{
+    border: none;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color:blueviolet;
+    color: black;
+    margin-top: 100px;
+    margin-left: 600px;
+ }
+ h2{
+    margin-top: 0px;
+    margin-left: 100px;
+ }
+ .search input{
+height: 35px;
+width: 250px;
+border: none;
+border-radius: 20px;
+margin-left: 40px;
+margin-top: 10px;
+ }
+
+  .bi-search{
+    width: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+  }
+  .temp{
+    margin-left: 140px;
+  }
+  h3{
+    margin-left: 10px;
+  }
+
+  img{
+   width: 160px;
+   height: 150px;
+   margin-left: 100px;
+   margin-top: -20px;
+  }
+    .humidity img{
+      width: 40px;
+      height: 30px;
+      margin-top: 50px;
+
+    }
+  .wind img{
+    width: 40px;
+    height: 30px;
+    margin-top: 50px;
+  }
+  .humidity{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -70px;
+  }
+  .humidity-h3{
+    margin-bottom: -5px;
+    margin-left: -3px;
+  }
+  .hm{
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .wind{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -100px;
+    margin-left: 90px;
+  }
+  .windspeed{
+    margin-left: 15px;
+margin-top: 33px;
+  }
+  
+  
