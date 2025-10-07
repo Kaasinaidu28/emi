@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 
 import Firstone from './propscontainer/Firstone';
-import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
+import { BrowserRouter, Routes, Route , Navigate  } from 'react-router-dom';
 import Weatherapp from './propscontainer/Weatherapp';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min';
@@ -34,14 +34,17 @@ import Phone from './propscontainer/Phone';
 import Senddata from './propscontainer/Senddata';
 import SimpleInterest from './propscontainer/SimpleInterest';
 import Marquee from './propscontainer/Marquee';
-import Api from './propscontainer/Api';
+
 import ColorBox from './propscontainer/ColorBox';
 import Log from './propscontainer/Log';
 import Home from './propscontainer/Home';
 import Read from './propscontainer/Read';
 import Update from './propscontainer/Update';
 import Create from './propscontainer/Create';
-import Emi from './propscontainer/Emi';
+
+import Api from './propscontainer/Api';
+import ATM from './propscontainer/Atm';
+import Practice from './propscontainer/Practice';
 
 
 //'https://fakestoreapi.com/products'
@@ -52,9 +55,10 @@ function App() {
 
   return (
     <div>
-       {/*} <BrowserRouter>
+       <BrowserRouter>
       
       <Routes>
+           <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/crt' element={<Create/>}></Route>
         <Route path='/update/:id' element={<Update/>}></Route>
@@ -83,11 +87,18 @@ function App() {
       {/*<SimpleInterest/>*/}
     {/*<Marquee/>*/}
   
+  
     
       {/*<Phone/>*/}
-      {/*<Api1/>*/}
+      {/*<Api/>*/}
       {/*<Log/>*/}
-      <Emi/>
+      {/*<Emi/>*/}
+      {/*<ATM/>*/}
+      {/*<Log/>*/}
+      {/*<Practice/>*/}
+      
+      
+     
       
   
 {/*<ColorBox/>*/}

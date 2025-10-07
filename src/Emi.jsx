@@ -95,10 +95,6 @@ const P = amounts
                 <h4 className='col'> Your Monthly Emi: ₹{interest}</h4>
             </div>
 
-
-
-
-
         </form>
 
       

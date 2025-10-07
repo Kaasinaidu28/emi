@@ -65,8 +65,7 @@ function Home() {
             <td>
               <Link to={`/read/${list.id}`} className='btn btn-sm btn-info me-2'>Read</Link>
                   <Link to={`/update/${list.id}`} className='btn btn-sm btn-primary me-2'>Edit</Link>
-                    <button onClick={() => handleDelete(list.id)}  className='btn btn-sm btn-danger mb-2'>Delete</button>
-                  
+                    <button onClick={() => handleDelete(list.id)}  className='btn btn-sm btn-danger mb-2'>Delete</button>     
             </td>
 
           </tr>

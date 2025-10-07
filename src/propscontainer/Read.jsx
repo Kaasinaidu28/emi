@@ -39,11 +39,9 @@ const Read = () => {
         <strong>City: {details.city}</strong>
       </div>
       <Link to={`/update/${id}`} className='btn btn-primary me-4'>Edit</Link>
-      <Link to={`/home/${id}`} className='btn btn-info'>Back</Link>
+      <Link to={`/home/`} className='btn btn-info'>Back</Link>
       
       </div>
-
-
 
 
     </div>
