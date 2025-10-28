@@ -35,7 +35,7 @@ const handleSubmit = (e) =>{
                 <input type="text" placeholder='Enter email' className='form-control' value={email} onChange={(e)=> setemail(e.target.value)} required />
             </div>
             <div className='mt-4'>
-              <label className='mb-2'>Paaword</label>
+              <label className='mb-2'>Password</label>
               <input className='form-control' type="text" placeholder='Enter Password' value={password} onChange={(e)=> setpassword(e.target.value)} required />
             </div>
           <button type='submit' className='btn btn-primary mt-4'>Submit</button>

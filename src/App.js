@@ -45,6 +45,9 @@ import Create from './propscontainer/Create';
 import Api from './propscontainer/Api';
 import ATM from './propscontainer/Atm';
 import Practice from './propscontainer/Practice';
+import Atm from './propscontainer/Atm';
+import Atminf from './propscontainer/Atminf';
+import Pingen from './propscontainer/Pingen';
 
 
 //'https://fakestoreapi.com/products'
@@ -55,7 +58,9 @@ function App() {
 
   return (
     <div>
-       <BrowserRouter>
+
+      
+      {/*} <BrowserRouter>
       
       <Routes>
            <Route path="/" element={<Navigate to="/home" replace />} />
@@ -64,6 +69,17 @@ function App() {
         <Route path='/update/:id' element={<Update/>}></Route>
          <Route path='/read/:id' element={<Read/>}></Route>
       </Routes>
+      </BrowserRouter>*/}
+
+      <BrowserRouter>
+      <Routes>
+    <Route path="/" element={<Navigate to="/Atminf" replace />} />
+        <Route path="/Atminf" element={<Atminf />} />
+        <Route path="/atm" element={<Atm />} />
+         <Route path="/pingen" element={<Pingen />} />
+
+      </Routes>
+      
       </BrowserRouter>
 
       {/*<Form/>*/}
@@ -86,6 +102,10 @@ function App() {
       {/*<Home/>*/}
       {/*<SimpleInterest/>*/}
     {/*<Marquee/>*/}
+    {/*<Atm/>*/}
+    {/*<Atminf/>*/}
+
+    
   
   
     
