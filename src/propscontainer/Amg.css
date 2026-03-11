@@ -1,0 +1,31 @@
+ .carousel-control-prev-icon{
+            border: 2px solid black;
+            border-radius: 5px;
+        
+        }
+        .carousel-control-next-icon{
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+       
+        .carousel-item{
+            width: 100%;
+          
+        }
+        .home{
+            cursor: pointer;
+        }
+        .home a{
+            text-decoration: none;
+            color: white;
+        }
+        .nav-link {
+  font-size: 18px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: orange !important;
+  transform: scale(1.1);
+}

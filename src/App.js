@@ -48,6 +48,15 @@ import Practice from './propscontainer/Practice';
 import Atm from './propscontainer/Atm';
 import Atminf from './propscontainer/Atminf';
 import Pingen from './propscontainer/Pingen';
+import Amazonmini from './propscontainer/Amazonmini';
+import Emi from './propscontainer/Emi';
+import Page1 from './propscontainer/Page1';
+import Count from './propscontainer/Count';
+import Practice2 from './propscontainer/Practice2';
+import Practice3 from './propscontainer/Practice3';
+import Accordian from './propscontainer/Accordian';
+import Accpractice from './propscontainer/Accpractice';
+
 
 
 //'https://fakestoreapi.com/products'
@@ -71,7 +80,7 @@ function App() {
       </Routes>
       </BrowserRouter>*/}
 
-      <BrowserRouter>
+     {/* <BrowserRouter>
       <Routes>
     <Route path="/" element={<Navigate to="/Atminf" replace />} />
         <Route path="/Atminf" element={<Atminf />} />
@@ -81,6 +90,16 @@ function App() {
       </Routes>
       
       </BrowserRouter>
+
+      {/*BrowserRouter>
+      <Routes>
+     <Route path="/" element={<Navigate to="/amgmini" replace />} />
+         <Route path="/amgmini" element={<Amazonmini/>}></Route>
+        <Route path="/contact"  element={<Contact/>}></Route>
+         <Route path="/count"  element={<Counter/>}></Route>
+          <Route path="/emi"  element={<Emi/>}></Route>
+      </Routes>
+      </BrowserRouter>*/}
 
       {/*<Form/>*/}
 
@@ -92,7 +111,7 @@ function App() {
         {/*<Weatherapp/>*/}
         {/*<Temparature/>*/}
        {/*} <Cityname/>*/}
-      {/*} <Cityname/>*/}
+       {/*<Cityname/>*/}
     {/*<LoginForm/>*/}
       {/*<Login/>*/}
      {/*<GetData/>*/}
@@ -100,10 +119,23 @@ function App() {
      {/* <ImgCorousel/>*/}
       {/*<Phone/>*/}
       {/*<Home/>*/}
+      {/*<Practice3/>*/}
       {/*<SimpleInterest/>*/}
     {/*<Marquee/>*/}
     {/*<Atm/>*/}
+   {/* <Navbar/>*/}
     {/*<Atminf/>*/}
+    {/*<Amazonmini/>*/}
+     {/* <Page1/>*/}
+     {/*<Download/>*/}
+     {/*<Count/>*/}
+     {/*<Practice2/>*/}
+     {/*<LoginForm/>*/}
+     {/*<Atm/>*/}
+     {/*<Atminf/>*/}
+    {/*<Amazonmini/>*/}
+    <About/>
+    
 
     
   

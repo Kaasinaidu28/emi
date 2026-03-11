@@ -1,10 +1,12 @@
-import {React, useState, useEffect} from 'react'
+import {React, useState,  useEffect} from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Atm = () => {
 
     const [amount, setamount] = useState("");
     const [balance, setbalance] = useState("");
     const [showBalance, setshowBalance] = useState("true");
+     const navigate = useNavigate();
 
 
      const withdrawamount = (n)=>{
@@ -41,6 +43,15 @@ const Atm = () => {
 
         }
 
+        const pinChange = (m)=>{
+          m.preventDefault();
+          navigate("/Atminf");
+          
+
+
+
+        }
+
   return (
     <div className='d-flex justify-content-center mt-5'>
 
@@ -56,6 +67,7 @@ const Atm = () => {
 
          <button type='submit' className='btn btn-danger me-4' onClick={withdrawamount}>Withdraw</button>
          <button  type='submit'  className='btn btn-success' onClick={depositamount}>Deposit</button>
+         <button className='btn btn-warning ms-4' onClick={pinChange}>Pin Change</button>
 
       </form>
       

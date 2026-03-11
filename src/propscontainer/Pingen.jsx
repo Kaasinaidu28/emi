@@ -19,7 +19,20 @@ const Pingen = () => {
           alert("pin not matched  please check your pin");
          return;
         }
-          
+
+         if (!/^[0-9]+$/.test(newpin) || !/^[0-9]+$/.test(newpinn)) {
+        alert("Please enter numbers only");
+        setnewpin("");
+         setnewpinn("");
+         return;
+         }
+
+        if(newpin.length < 4 ||newpinn.length < 4){
+          alert("Pin number should not be less than 4");
+          return;
+        }
+
+                  
         if(newpin === newpinn){
            axios.post(" http://localhost:5000/atmpin",{
           newpin, newpinn
